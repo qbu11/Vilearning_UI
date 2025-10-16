@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilearning - 未来教育平台</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 背景动画元素 -->
+    <div class="cyberpunk-bg">
+        <div class="grid-overlay"></div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">Vi<span class="highlight">learning</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能</a></li>
+                <li><a href="#screenshots">产品</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    重新定义<span class="text-glow">学习体验</span>
+                </h1>
+                <p class="hero-subtitle">
+                    融合AI智能规划、游戏化学习和人生目标管理的未来教育平台
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">开始体验</button>
+                    <button class="btn btn-secondary">了解更多</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hologram-container">
+                    <div class="hologram"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特性区域 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能</h2>
+            <div class="features-grid">
+                <!-- 功能1：规划人生 -->
+                <div class="feature-card" data-feature="life-planning">
+                    <div class="feature-icon">
+                        <div class="icon-background"></div>
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M9 11H7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2h-2M9 11V9a2 2 0 1 1 4 0v2M9 11h6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">智能人生规划</h3>
+                    <p class="feature-description">
+                        基于AI算法分析你的兴趣、能力和目标，制定个性化的人生发展路径
+                    </p>
+                    <ul class="feature-list">
+                        <li>职业规划建议</li>
+                        <li>技能发展树</li>
+                        <li>目标时间线管理</li>
+                        <li>进度可视化追踪</li>
+                    </ul>
+                </div>
+
+                <!-- 功能2：学习路径规划 -->
+                <div class="feature-card" data-feature="learning-path">
+                    <div class="feature-icon">
+                        <div class="icon-background"></div>
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">学习任务路径</h3>
+                    <p class="feature-description">
+                        智能分解学习目标，制定循序渐进的任务完成路径，提高学习效率
+                    </p>
+                    <ul class="feature-list">
+                        <li>任务智能分解</li>
+                        <li>难度梯度设计</li>
+                        <li>学习进度跟踪</li>
+                        <li>自适应调整</li>
+                    </ul>
+                </div>
+
+                <!-- 功能3：游戏化学习 -->
+                <div class="feature-card" data-feature="gamification">
+                    <div class="feature-icon">
+                        <div class="icon-background"></div>
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">游戏化体验</h3>
+                    <p class="feature-description">
+                        通过积分、徽章、排行榜等游戏元素，让学习过程更有趣和激励性
+                    </p>
+                    <ul class="feature-list">
+                        <li>经验值系统</li>
+                        <li>成就徽章收集</li>
+                        <li>社交排行榜</li>
+                        <li>挑战任务模式</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品截图区域 -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title">产品预览</h2>
+            <div class="screenshot-gallery">
+                <div class="screenshot-item main-screenshot">
+                    <div class="screenshot-placeholder">
+                        <div class="placeholder-content">
+                            <h3>主界面</h3>
+                            <p>智能仪表板展示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="screenshot-grid">
+                    <div class="screenshot-item">
+                        <div class="screenshot-placeholder">
+                            <div class="placeholder-content">
+                                <h4>人生规划</h4>
+                                <p>目标设定界面</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <div class="screenshot-placeholder">
+                            <div class="placeholder-content">
+                                <h4>学习路径</h4>
+                                <p>任务分解视图</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <div class="screenshot-placeholder">
+                            <div class="placeholder-content">
+                                <h4>游戏化</h4>
+                                <p>成就系统</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-item">
+                        <div class="screenshot-placeholder">
+                            <div class="placeholder-content">
+                                <h4>数据分析</h4>
+                                <p>学习报告</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">开启学习新纪元</h2>
+                <p class="contact-subtitle">准备好体验未来的教育方式了吗？</p>
+                <div class="contact-buttons">
+                    <button class="btn btn-primary btn-large">立即下载</button>
+                    <button class="btn btn-outline btn-large">预约演示</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Vi<span class="highlight">learning</span></h3>
+                    <p>重新定义学习体验</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>产品</h4>
+                        <ul>
+                            <li><a href="#">功能介绍</a></li>
+                            <li><a href="#">价格方案</a></li>
+                            <li><a href="#">更新日志</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>支持</h4>
+                        <ul>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">反馈建议</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vilearning. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
